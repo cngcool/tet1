@@ -1,0 +1,49 @@
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+padding:0 px;
+margin:0 pixel;
+list-style:none;
+border-radius : 3 px;
+background-color:aquamarine;
+text-align:center;
+}
+.menu>ul>li>a{
+text-decoration:none;
+font-variant:small-caps;
+font-size:larger;
+color:brown;
+padding:0 40 px;
+line-height:40 px;
+margin: 10px;
+height: 20px;
+
+}
+.menu>ul>li>a:hover{
+color:yellow;
+
+}
+article{
+    width: 50%;
+}
+aside{
+    width: 50%;
+    
+}
+footer{
+  clear: both;
+}
+section{
+    display:flex;
+ float: left;
+ height: 1000px;
+
+}
+aside{
+    width: 30%;
+}
+
